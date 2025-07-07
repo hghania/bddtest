@@ -23,7 +23,7 @@ class Calculatrice {
   diviser(a, b) {
     this.#verifier(a, b);
     if (b === 0) {
-      throw new Error("Division par zéro impossible");
+      throw new Error("Division par zéro impossible ");
     }
     return a / b;
   }
