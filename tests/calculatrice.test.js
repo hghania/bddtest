@@ -28,7 +28,7 @@ describe("Calculatrice 1", () => {
       expect(calc.diviser(6, 2)).toBe(3);
     });
     test("lancer une erreur en cas de division par zéro", () => {
-      expect(() => calc.diviser(6, 0)).toThrow("Division par zéro impossible");
+      expect(() => calc.diviser(6, 1)).toThrow("Division par zéro impossible");
     });
   });
 
